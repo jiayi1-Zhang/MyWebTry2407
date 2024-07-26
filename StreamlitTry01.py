@@ -20,7 +20,7 @@ spark_chat_model = ChatSparkLLM()
 MyModel = spark_chat_model
 
 import streamlit as st
-text = st.text_area(label='输入问题，最大200字，ctrl+enter发送。\n\n'
+text = st.text_area(label='输入问题，最大200字，ctrl+enter发送。'
                           '(此问答以大语言模型api为基础,通过LangChain构建对话,streamlit搭建web界面)',
                     value='你好......',
                     height=5,
