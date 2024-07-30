@@ -1,2 +1,2 @@
-langchain_community
-streamlit
+langchain_community==0.2.10
+streamlit==1.36.0
